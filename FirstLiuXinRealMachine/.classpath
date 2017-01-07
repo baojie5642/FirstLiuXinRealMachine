@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/amino-cbbs-0.3.2.jar" sourcepath="/home/liuxin/worker/963liuxin/ApacheAmino/cbbs-java-src-0.3.2"/>
+	<classpathentry kind="lib" path="lib/bonecp-0.8.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/commons-collections4-4.0.jar"/>
+	<classpathentry kind="lib" path="lib/commons-dbcp2-2.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/commons-pool2-2.4.2.jar"/>
+	<classpathentry kind="lib" path="lib/druid-1.0.16.jar"/>
+	<classpathentry kind="lib" path="lib/guava-19.0-rc2.jar"/>
+	<classpathentry kind="lib" path="lib/liuxinkilim.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="lib/objenesis-2.2.jar" sourcepath="lib/objenesis-2.2-sources.jar"/>
+	<classpathentry kind="lib" path="lib/tomcat-jdbc.jar"/>
+	<classpathentry kind="lib" path="lib/tomcat-juli-over-slf4j-4.jar"/>
+	<classpathentry kind="lib" path="lib/javassist-3.20.0-GA.jar"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-5.1.38-bin.jar"/>
+	<classpathentry kind="lib" path="lib/zip4j_1.3.2.jar" sourcepath="/home/liuxin/worker/963liuxin/Zip4j/vpn官网下载/Zip4j"/>
+	<classpathentry kind="lib" path="lib/slf4j-log4j12-1.7.16.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.7.16.jar"/>
+	<classpathentry kind="lib" path="lib/mylealone/lealone-client-3.0.0-SNAPSHOT.jar" sourcepath="/home/liuxin/worker/963liuxin/LeaLone/Lealone-master"/>
+	<classpathentry kind="lib" path="lib/mylealone/lealone-common-3.0.0-SNAPSHOT.jar" sourcepath="/home/liuxin/worker/963liuxin/LeaLone/Lealone-master"/>
+	<classpathentry kind="lib" path="lib/mylealone/lealone-db-3.0.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="lib/mylealone/lealone-main-3.0.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="lib/mylealone/lealone-mvcc-3.0.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="lib/mylealone/lealone-mvstore-3.0.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="lib/mylealone/lealone-net-3.0.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="lib/mylealone/lealone-server-3.0.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="lib/mylealone/lealone-sql-3.0.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="lib/mylealone/netty-buffer-4.0.33.Final.jar"/>
+	<classpathentry kind="lib" path="lib/mylealone/netty-codec-4.0.33.Final.jar"/>
+	<classpathentry kind="lib" path="lib/mylealone/netty-common-4.0.33.Final.jar"/>
+	<classpathentry kind="lib" path="lib/mylealone/netty-handler-4.0.33.Final.jar"/>
+	<classpathentry kind="lib" path="lib/mylealone/netty-transport-4.0.33.Final.jar"/>
+	<classpathentry kind="lib" path="lib/mylealone/snakeyaml-1.11.jar"/>
+	<classpathentry kind="lib" path="lib/mylealone/vertx-core-3.2.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-exec-1.3.jar" sourcepath="lib/commons-exec-1.3-sources.jar"/>
+	<classpathentry kind="lib" path="lib/hibernate/hibernate-core-5.1.0.Final.jar"/>
+	<classpathentry kind="lib" path="lib/junit-4.12.jar" sourcepath="lib/junit-4.12-sources.jar"/>
+	<classpathentry kind="lib" path="lib/protostuff/protostuff-api-1.4.4.jar" sourcepath="/home/liuxin/work/963liuxin/Protobuf/144/protostuff-protostuff-1.4.4"/>
+	<classpathentry kind="lib" path="lib/protostuff/protostuff-collectionschema-1.4.4.jar" sourcepath="/home/liuxin/work/963liuxin/Protobuf/144/protostuff-protostuff-1.4.4"/>
+	<classpathentry kind="lib" path="lib/protostuff/protostuff-core-1.4.4.jar" sourcepath="/home/liuxin/work/963liuxin/Protobuf/144/protostuff-protostuff-1.4.4"/>
+	<classpathentry kind="lib" path="lib/protostuff/protostuff-runtime-1.4.4.jar" sourcepath="/home/liuxin/work/963liuxin/Protobuf/144/protostuff-protostuff-1.4.4"/>
+	<classpathentry kind="lib" path="lib/hikari/HikariCP-2.4.6.jar" sourcepath="/home/liuxin/work/hikari/HikariCP-dev"/>
+	<classpathentry kind="lib" path="lib/jadetools/jadepool-1.2-GBK.jar" sourcepath="/home/liuxin/work/jadepool/jadepool-1.2-GBK"/>
+	<classpathentry kind="lib" path="lib/commons-io-2.5.jar" sourcepath="/home/liuxin/work/commons-io-2.5-src"/>
+	<classpathentry kind="lib" path="lib/metrics/metrics-core-3.1.2.jar" sourcepath="lib/metrics/metrics-core-3.0.2-sources.jar"/>
+	<classpathentry kind="lib" path="lib/metrics/metrics-healthchecks-3.0.2.jar" sourcepath="lib/metrics/metrics-healthchecks-3.0.2-sources.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

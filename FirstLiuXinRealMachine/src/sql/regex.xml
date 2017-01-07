@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="GBK"?>
+<!--
+    Document   : regex.xml
+    Created on : 2009-06-22 00:30:18
+    Author     : pvo
+    Description: Purpose of the document follows. Write regex value, PVO will auto check the upload field value.
+-->
+ <!DOCTYPE root [
+ <!ELEMENT root (table)*>
+ <!ELEMENT table (field)*>
+ <!ATTLIST table name ID #REQUIRED>
+ <!ELEMENT field EMPTY>
+ <!ATTLIST field regex CDATA #IMPLIED name CDATA #IMPLIED>
+ ]>
+<root>
+    <table name="ad">
+        <field name="ad_id" regex=""></field>
+        <field name="href" regex=""></field>
+        <field name="target" regex=""></field>
+        <field name="filename" regex=""></field>
+        <field name="contenttype" regex=""></field>
+        <field name="title" regex=""></field>
+        <field name="width" regex=""></field>
+        <field name="height" regex=""></field>
+        <field name="groupid" regex=""></field>
+    </table>
+    <table name="address">
+        <field name="addresscode" regex=""></field>
+        <field name="parentcode" regex=""></field>
+        <field name="labelcn" regex=""></field>
+        <field name="labelen" regex=""></field>
+        <field name="labeljp" regex=""></field>
+        <field name="longitude" regex=""></field>
+        <field name="latitude" regex=""></field>
+        <field name="zip" regex=""></field>
+        <field name="ip" regex=""></field>
+    </table>
+    <table name="adposition">
+        <field name="adposition_id" regex=""></field>
+        <field name="label" regex=""></field>
+        <field name="width" regex=""></field>
+        <field name="height" regex=""></field>
+        <field name="price" regex=""></field>
+        <field name="unit" regex=""></field>
+    </table>
+    <table name="agency">
+        <field name="agency_id" regex=""></field>
+        <field name="petname" regex=""></field>
+        <field name="password" regex=""></field>
+        <field name="cookieid" regex=""></field>
+        <field name="gradeid" regex=""></field>
+        <field name="lovename" regex=""></field>
+        <field name="realname" regex=""></field>
+        <field name="cardid" regex=""></field>
+        <field name="zip" regex=""></field>
+        <field name="addresscode" regex=""></field>
+        <field name="address" regex=""></field>
+        <field name="email" regex=""></field>
+        <field name="mobi" regex=""></field>
+        <field name="tel" regex=""></field>
+        <field name="fax" regex=""></field>
+        <field name="qq" regex=""></field>
+        <field name="isfreeze" regex=""></field>
+        <field name="isin" regex=""></field>
+        <field name="sqgl" regex=""></field>
+        <field name="zhgl" regex=""></field>
+        <field name="xtgl" regex=""></field>
+        <field name="htgl" regex=""></field>
+        <field name="ejgl" regex=""></field>
+        <field name="grzy" regex=""></field>
+        <field name="ip" regex=""></field>
+        <field name="uptime" regex=""></field>
+    </table>
+    <table name="agencycn">
+        <field name="agencycn_id" regex=""></field>
+        <field name="realname" regex=""></field>
+        <field name="cardid" regex=""></field>
+    </table>
+    <table name="agencypage">
+        <field name="title" regex=""></field>
+        <field name="isgrzp" regex=""></field>
+        <field name="isgrjs" regex=""></field>
+        <field name="isgrmp" regex=""></field>
+        <field name="isgrbk" regex=""></field>
+        <field name="stylecss" regex=""></field>
+        <field name="petname" regex=""></field>
+        <field name="uptime" regex=""></field>
+    </table>
+    <table name="agencyus">
+        <field name="agencyus_id" regex=""></field>
+        <field name="prename" regex=""></field>
+        <field name="middlename" regex=""></field>
+        <field name="lastname" regex=""></field>
+        <field name="cardid" regex=""></field>
+    </table>
+    <table name="bill">
+        <field name="bill_id" regex=""></field>
+        <field name="enterprise_id" regex=""></field>
+        <field name="price" regex=""></field>
+        <field name="lovename" regex=""></field>
+        <field name="address" regex=""></field>
+        <field name="tel" regex=""></field>
+        <field name="ip" regex=""></field>
+        <field name="memo" regex=""></field>
+        <field name="petname" regex=""></field>
+        <field name="uptime" regex=""></field>
+    </table>
+    <table name="billdetail">
+        <field name="billdetail_id" regex=""></field>
+        <field name="bill_id" regex=""></field>
+        <field name="product_id" regex=""></field>
+        <field name="productnum" regex=""></field>
+        <field name="priceconvert" regex=""></field>
+        <field name="price" regex=""></field>
+    </table>
+    <table name="category">
+        <field name="categorycode" regex=""></field>
+        <field name="parentcode" regex=""></field>
+        <field name="gbbm" regex=""></field>
+        <field name="labelcn" regex=""></field>
+        <field name="labelen" regex=""></field>
+        <field name="labeljp" regex=""></field>
+        <field name="abbre" regex=""></field>
+    </table>
+    <table name="columns">
+        <field name="columns_id" regex=""></field>
+        <field name="petname" regex=""></field>
+        <field name="pretitle" regex=""></field>
+        <field name="title" regex=""></field>
+        <field name="description" regex=""></field>
+        <field name="icon" regex=""></field>
+        <field name="columnsid" regex=""></field>
+        <field name="sortnum" regex=""></field>
+        <field name="nockedtimes" regex=""></field>
+        <field name="isreply" regex=""></field>
+        <field name="isshow" regex=""></field>
+        <field name="uptime" regex=""></field>
+    </table>
+    <table name="columns_reply">
+        <field name="columns_reply_id" regex=""></field>
+        <field name="columns_id" regex=""></field>
+        <field name="content" regex=""></field>
+        <field name="uptime" regex=""></field>
+        <field name="username" regex=""></field>
+        <field name="appellative" regex=""></field>
+        <field name="ip" regex=""></field>
+        <field name="isshow" regex=""></field>
+    </table>
+    <table name="doctext">
+        <field name="doctext_id" regex=""></field>
+        <field name="columns_id" regex=""></field>
+        <field name="petname" regex=""></field>
+        <field name="type" regex=""></field>
+        <field name="doctitle" regex=""></field>
+        <field name="content" regex=""></field>
+        <field name="author" regex=""></field>
+        <field name="uptime" regex=""></field>
+        <field name="nockedtimes" regex=""></field>
+        <field name="addressname" regex=""></field>
+        <field name="sortnum" regex=""></field>
+        <field name="isshow" regex=""></field>
+    </table>
+    <table name="down">
+        <field name="down_id" regex=""></field>
+        <field name="title" regex=""></field>
+        <field name="description" regex=""></field>
+        <field name="filename" regex=""></field>
+        <field name="contenttype" regex=""></field>
+        <field name="uptime" regex=""></field>
+        <field name="downid" regex=""></field>
+        <field name="petname" regex=""></field>
+        <field name="sortnum" regex=""></field>
+        <field name="nockedtimes" regex=""></field>
+    </table>
+    <table name="down_info">
+        <field name="down_info_id" regex=""></field>
+        <field name="down_id" regex=""></field>
+        <field name="downtime" regex=""></field>
+        <field name="downip" regex=""></field>
+        <field name="username" regex=""></field>
+        <field name="leaveword" regex=""></field>
+    </table>
+    <table name="enterprise">
+        <field name="enterprise_id" regex=""></field>
+        <field name="categorycode" regex=""></field>
+        <field name="qymc" regex=""></field>
+        <field name="unitcode" regex=""></field>
+        <field name="enterprisecode" regex=""></field>
+        <field name="description" regex=""></field>
+        <field name="items" regex=""></field>
+        <field name="registerfund" regex=""></field>
+        <field name="clerknum" regex=""></field>
+        <field name="address" regex=""></field>
+        <field name="deputy" regex=""></field>
+        <field name="tels" regex=""></field>
+        <field name="sortnum" regex=""></field>
+        <field name="recommend" regex=""></field>
+        <field name="isshow" regex=""></field>
+        <field name="nockedtimes" regex=""></field>
+        <field name="petname" regex=""></field>
+        <field name="uptime" regex=""></field>
+    </table>
+    <table name="enterprise_tj">
+        <field name="enterprise_id" regex=""></field>
+    </table>
+    <table name="enterprisead">
+        <field name="enterprisead_id" regex=""></field>
+        <field name="enterpriseadp_id" regex=""></field>
+        <field name="enterprise_id" regex=""></field>
+        <field name="href" regex=""></field>
+        <field name="filename" regex=""></field>
+        <field name="contenttype" regex=""></field>
+        <field name="title" regex=""></field>
+        <field name="width" regex=""></field>
+        <field name="height" regex=""></field>
+        <field name="petname" regex=""></field>
+        <field name="uptime" regex=""></field>
+    </table>
+    <table name="enterpriseadp">
+        <field name="enterpriseadp_id" regex=""></field>
+        <field name="label" regex=""></field>
+        <field name="width" regex=""></field>
+        <field name="height" regex=""></field>
+    </table>
+    <table name="enterprisedoc">
+        <field name="enterprisedoc_id" regex=""></field>
+        <field name="enterprise_id" regex=""></field>
+        <field name="title" regex=""></field>
+        <field name="content" regex=""></field>
+        <field name="groupid" regex=""></field>
+        <field name="nockedtimes" regex=""></field>
+        <field name="sortnum" regex=""></field>
+        <field name="isshow" regex=""></field>
+        <field name="petname" regex=""></field>
+        <field name="uptime" regex=""></field>
+    </table>
+    <table name="enterprisepage">
+        <field name="enterprisepage_id" regex=""></field>
+        <field name="enterprise_id" regex=""></field>
+        <field name="enterprisename" regex=""></field>
+        <field name="title" regex=""></field>
+        <field name="isfwxm" regex=""></field>
+        <field name="iscgal" regex=""></field>
+        <field name="iscplb" regex=""></field>
+        <field name="isqyzx" regex=""></field>
+        <field name="isgylb" regex=""></field>
+        <field name="iscgxx" regex=""></field>
+        <field name="iszbxx" regex=""></field>
+        <field name="iszpxx" regex=""></field>
+        <field name="isqydt" regex=""></field>
+        <field name="isqygg" regex=""></field>
+        <field name="iskhly" regex=""></field>
+        <field name="isdzsw" regex=""></field>
+        <field name="petname" regex=""></field>
+        <field name="uptime" regex=""></field>
+    </table>
+    <table name="enterprisepic">
+        <field name="enterprisepic_id" regex=""></field>
+        <field name="enterprise_id" regex=""></field>
+        <field name="pictitle" regex=""></field>
+        <field name="size" regex=""></field>
+        <field name="width" regex=""></field>
+        <field name="height" regex=""></field>
+        <field name="filename" regex=""></field>
+        <field name="ext" regex=""></field>
+        <field name="contenttype" regex=""></field>
+        <field name="groupid" regex=""></field>
+        <field name="sortnum" regex=""></field>
+        <field name="isshow" regex=""></field>
+        <field name="petname" regex=""></field>
+        <field name="uptime" regex=""></field>
+    </table>
+    <table name="info">
+        <field name="info_id" regex=""></field>
+        <field name="label" regex=""></field>
+        <field name="tel" regex=""></field>
+        <field name="address" regex=""></field>
+        <field name="description" regex=""></field>
+        <field name="infoid" regex=""></field>
+        <field name="sortnum" regex=""></field>
+        <field name="ip" regex=""></field>
+        <field name="petname" regex=""></field>
+        <field name="uptime" regex=""></field>
+    </table>
+    <table name="label">
+        <field name="label_id" regex=""></field>
+        <field name="label" regex=""></field>
+        <field name="groupid" regex=""></field>
+    </table>
+    <table name="link">
+        <field name="link_id" regex=""></field>
+        <field name="title" regex=""></field>
+        <field name="url" regex=""></field>
+        <field name="linkid" regex=""></field>
+        <field name="sortnum" regex=""></field>
+        <field name="petname" regex=""></field>
+        <field name="uptime" regex=""></field>
+    </table>
+    <table name="picture">
+        <field name="picture_id" regex=""></field>
+        <field name="petname" regex=""></field>
+        <field name="pictitle" regex=""></field>
+        <field name="author" regex=""></field>
+        <field name="width" regex=""></field>
+        <field name="height" regex=""></field>
+        <field name="filename" regex=""></field>
+        <field name="contenttype" regex=""></field>
+        <field name="nockedtimes" regex=""></field>
+        <field name="uptime" regex=""></field>
+        <field name="groupid" regex=""></field>
+        <field name="addressname" regex=""></field>
+        <field name="sortnum" regex=""></field>
+        <field name="columns_id" regex=""></field>
+        <field name="doctext_id" regex=""></field>
+        <field name="isshow" regex=""></field>
+    </table>
+    <table name="product">
+        <field name="product_id" regex=""></field>
+        <field name="categorylabel" regex=""></field>
+        <field name="enterprise_id" regex=""></field>
+        <field name="label" regex=""></field>
+        <field name="abbre" regex=""></field>
+        <field name="guige" regex=""></field>
+        <field name="description" regex=""></field>
+        <field name="filename" regex=""></field>
+        <field name="contenttype" regex=""></field>
+        <field name="width" regex=""></field>
+        <field name="height" regex=""></field>
+        <field name="sortnum" regex=""></field>
+        <field name="price" regex=""></field>
+        <field name="unit" regex=""></field>
+        <field name="moneycode" regex=""></field>
+        <field name="isshow" regex=""></field>
+        <field name="num" regex=""></field>
+        <field name="nockedtimes" regex=""></field>
+        <field name="petname" regex=""></field>
+        <field name="uptime" regex=""></field>
+    </table>
+    <table name="product_rx">
+        <field name="product_id" regex=""></field>
+    </table>
+    <table name="product_tj">
+        <field name="product_id" regex=""></field>
+    </table>
+    <table name="stock">
+        <field name="stock_id" regex=""></field>
+        <field name="categorycode" regex=""></field>
+        <field name="enterprise_id" regex=""></field>
+        <field name="label" regex=""></field>
+        <field name="price" regex=""></field>
+        <field name="unit" regex=""></field>
+        <field name="num" regex=""></field>
+        <field name="moneycode" regex=""></field>
+        <field name="begintime" regex=""></field>
+        <field name="endtime" regex=""></field>
+        <field name="demand" regex=""></field>
+        <field name="isshow" regex=""></field>
+        <field name="nockedtimes" regex=""></field>
+        <field name="petname" regex=""></field>
+        <field name="uptime" regex=""></field>
+    </table>
+    <table name="suggest">
+        <field name="suggest_id" regex=""></field>
+        <field name="description" regex=""></field>
+        <field name="uptime" regex=""></field>
+        <field name="ip" regex=""></field>
+        <field name="name" regex=""></field>
+    </table>
+    <table name="test">
+        <field name="id" regex=""></field>
+        <field name="nn" regex=""></field>
+    </table>
+    <table name="visit">
+        <field name="visit_id" regex=""></field>
+        <field name="visittimes" regex=""></field>
+    </table>
+</root>

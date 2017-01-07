@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="GBK"?>
+<!--
+    Document    : db.xml
+    Created on  : 2009-06-25 00:21:48
+    Author      : hkm
+    Description : Purpose of the document as following.
+-->
+<!DOCTYPE db [
+<!ELEMENT db (resource|password|user|driver|url)*>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT driver (#PCDATA)>
+<!ELEMENT user (#PCDATA)>
+<!ELEMENT password (#PCDATA)>
+<!ELEMENT resource (#PCDATA)>
+]>
+<db>
+    <url>jdbc:sqlserver://localhost\dbo:1433;databaseName=Northwind</url>
+    <driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</driver>
+    <user>hkm</user>
+    <password>hkm</password>
+    <resource></resource>
+</db>
+<!--
+    When using SQL Server 2000 database Northwind and the JDBC file sqljdbc4.jar, document as previous.
+    When using mssqlserver.jar、msbase.jar、msutil.jar, document as following
+    <db>
+        <url>jdbc:microsoft:sqlserver://localhost:1433; SendStringParametersAsUnicode=false</url>
+        <driver>com.microsoft.jdbc.sqlserver.SQLServerDriver</driver>
+        <user>hkm</user>
+        <password>hkm</password>
+        <resource></resource>
+    </db>
+    You should configure the document as the case may be.
+-->

@@ -1,0 +1,16 @@
+/BaseOnLealone/
+/DataBaseConnectionPool/
+/Error/
+/FieldStructure/
+/FromOutter/
+/LiuXinNiMain/
+/LiuXinTestForAllThing/
+/QueueOfAllTask/
+/SpaceProtostuff/
+/StampOfTaskInformation/
+/TaskFactory/
+/TaskRunner/
+/ThreadFactory/
+/ThreadPool/
+/ThreadRejectMethod/
+/sql/

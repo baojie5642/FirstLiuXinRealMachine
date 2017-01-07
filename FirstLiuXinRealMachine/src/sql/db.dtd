@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='GBK'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/db.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE db SYSTEM "db.dtd">
+
+    <db>
+    ...
+    </db>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT db (resource|password|user|driver|url)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT url (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT driver (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT user (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT password (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT resource (#PCDATA)>

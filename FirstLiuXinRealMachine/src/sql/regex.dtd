@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='GBK'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/regex.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE root SYSTEM "regex.dtd">
+
+    <root>
+    ...
+    </root>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT root (table)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT table (field)*>
+<!ATTLIST table
+    name CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT field EMPTY>
+<!ATTLIST field
+    regex CDATA #IMPLIED
+    name CDATA #IMPLIED
+  >
